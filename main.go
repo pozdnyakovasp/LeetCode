@@ -10,8 +10,19 @@ import (
 
 func main() {
 
-	var ln = solutions.LengthOfLongestSubstring(" ")
-	fmt.Println(ln)
+	//var res = solutions.FindMedianSortedArrays([]int{1, 2}, []int{3, 4, 5})
+	//var res = solutions.FindMedianSortedArrays([]int{0, 1, 4}, []int{1, 2, 3, 4})
+
+	//var res = solutions.FindMedianSortedArrays([]int{1, 3}, []int{2})
+	//var res = solutions.FindMedianSortedArrays([]int{0, 1, 4}, []int{1, 2, 3, 4})
+	//var res = solutions.FindMedianSortedArrays([]int{0}, []int{1})
+	//var res = solutions.FindMedianSortedArrays([]int{0}, []int{0})
+	var res = solutions.FindMedianSortedArrays([]int{1, 3}, []int{2, 7})
+	//var res = solutions.FindMedianSortedArrays([]int{1, 2}, []int{3, 4})
+	// 0 1 1 2 3 4
+	// 0 1 1 =2= 3 4 4
+	fmt.Println(res)
+	//var ln = solutions.LengthOfLongestSubstring(" ")
 	//list1 := &solutions.ListNode{Val: 1}
 	//list1.Next = &solutions.ListNode{Val: 4}
 	//list1.Next.Next = &solutions.ListNode{Val: 5}
